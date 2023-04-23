@@ -2,10 +2,12 @@ package org.example.backpack;
 
 import org.example.backpack.model.Item;
 
+import java.util.Collection;
+import java.util.List;
 import java.util.Set;
 
 public interface BackPack {
 
-  Set<Item> getMostValuableSet(Set<Item> items, int backPackCapacity);
+  List<Item> getMostValuableSet(List<Item> items, int backPackCapacity);
 
 }

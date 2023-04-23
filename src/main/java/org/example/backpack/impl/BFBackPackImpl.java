@@ -16,9 +16,9 @@ import java.util.Set;
 public class BFBackPackImpl implements BackPack {
 
   @Override
-  public Set<Item> getMostValuableSet(Set<Item> items, int backPackCapacity) {
+  public List<Item> getMostValuableSet(List<Item> items, int backPackCapacity) {
     final Set<List<Item>> combinations = getAllCombinations(new ArrayList<>(items));
-    final var result = new HashSet<Item>();
+    final var result = new ArrayList<Item>();
     int maxPrice = 0;
 
     for (List<Item> combination : combinations) {

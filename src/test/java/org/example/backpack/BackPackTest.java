@@ -1,13 +1,13 @@
 package org.example.backpack;
 
 import org.example.backpack.impl.BFBackPackImpl;
+import org.example.backpack.impl.BackTrackingBackPackImpl;
 import org.example.backpack.model.Item;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -19,13 +19,13 @@ class BackPackTest {
 
   @BeforeEach
   public void setup() {
-    this.backPack = new BFBackPackImpl();
+    this.backPack = new BackTrackingBackPackImpl();
   }
 
   @Test
   public void shouldGetAnEmptySetIfIsNotPossiblePutAnythingInBackPack() {
     //arrange
-    final var items = Set.of(
+    final var items = List.of(
             new Item(1, 20, 30),
             new Item(2, 34, 48)
     );
@@ -64,8 +64,8 @@ class BackPackTest {
     assertEquals(Math.pow(2, items.size()) - 1, result.size());
   }
 
-  private Set<Item> buildItems() {
-    return Set.of(
+  private List<Item> buildItems() {
+    return List.of(
             new Item(0, 2, 20),
             new Item(1, 5, 30),
             new Item(2, 10, 50),
@@ -73,9 +73,9 @@ class BackPackTest {
     );
   }
 
-  private Set<Item> buildRandomItems() {
+  private List<Item> buildRandomItems() {
     final int size = 5;
-    final var result = new HashSet<Item>();
+    final var result = new ArrayList<Item>();
 
     for (int i = 0; i < size; i++) {
       final var weight = Math.round(Math.random() * 100);
