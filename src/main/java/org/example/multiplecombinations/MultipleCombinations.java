@@ -1,9 +1,9 @@
 package org.example.multiplecombinations;
 
-import java.util.Set;
+import java.util.List;
 
 public interface MultipleCombinations {
 
-  void printMultipleSet(Set<Integer> values, Integer targetValue);
+  void printMultipleSet(List<Integer> values, Integer targetValue);
 
 }
