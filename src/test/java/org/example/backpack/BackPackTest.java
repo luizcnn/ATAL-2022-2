@@ -1,8 +1,9 @@
 package org.example.backpack;
 
-import org.example.backpack.impl.BFBackPackImpl;
-import org.example.backpack.impl.BackTrackingBackPackImpl;
-import org.example.backpack.model.Item;
+import org.example.backtracking.backpack.BackPack;
+import org.example.backtracking.backpack.impl.BFBackPackImpl;
+import org.example.backtracking.backpack.impl.BackTrackingBackPackImpl;
+import org.example.backtracking.backpack.model.Item;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package org.example.backpack.model;
+package org.example.backtracking.backpack.model;
 
 import lombok.Data;
 import lombok.Getter;

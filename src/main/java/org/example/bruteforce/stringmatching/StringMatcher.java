@@ -1,4 +1,4 @@
-package org.example.stringmatching;
+package org.example.bruteforce.stringmatching;
 
 public interface StringMatcher {
 

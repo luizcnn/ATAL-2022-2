@@ -1,4 +1,4 @@
-package org.example.nqueens;
+package org.example.backtracking.nqueens;
 
 public interface NQueens {
 

@@ -1,4 +1,4 @@
-package org.example.euclidiandist.model;
+package org.example.bruteforce.euclidiandist.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

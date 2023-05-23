@@ -1,10 +1,8 @@
-package org.example.backpack;
+package org.example.backtracking.backpack;
 
-import org.example.backpack.model.Item;
+import org.example.backtracking.backpack.model.Item;
 
-import java.util.Collection;
 import java.util.List;
-import java.util.Set;
 
 public interface BackPack {
 

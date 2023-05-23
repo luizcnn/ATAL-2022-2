@@ -1,8 +1,7 @@
-package org.example.euclidiandist;
+package org.example.bruteforce.euclidiandist;
 
-import org.example.euclidiandist.model.Point;
+import org.example.bruteforce.euclidiandist.model.Point;
 
-import java.util.List;
 import java.util.Set;
 
 public interface ClosestPair {

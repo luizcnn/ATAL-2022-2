@@ -1,6 +1,6 @@
-package org.example.nqueens.impl;
+package org.example.backtracking.nqueens.impl;
 
-import org.example.nqueens.NQueens;
+import org.example.backtracking.nqueens.NQueens;
 
 import java.util.Arrays;
 

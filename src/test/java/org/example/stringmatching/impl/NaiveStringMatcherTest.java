@@ -1,6 +1,7 @@
 package org.example.stringmatching.impl;
 
-import org.example.stringmatching.StringMatcher;
+import org.example.bruteforce.stringmatching.StringMatcher;
+import org.example.bruteforce.stringmatching.impl.NaiveStringMatcher;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

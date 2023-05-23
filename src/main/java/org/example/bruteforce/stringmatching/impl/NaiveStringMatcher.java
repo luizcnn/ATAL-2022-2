@@ -1,6 +1,6 @@
-package org.example.stringmatching.impl;
+package org.example.bruteforce.stringmatching.impl;
 
-import org.example.stringmatching.StringMatcher;
+import org.example.bruteforce.stringmatching.StringMatcher;
 
 public class NaiveStringMatcher implements StringMatcher {
 

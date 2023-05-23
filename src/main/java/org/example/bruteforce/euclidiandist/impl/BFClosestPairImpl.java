@@ -1,7 +1,7 @@
-package org.example.euclidiandist.impl;
+package org.example.bruteforce.euclidiandist.impl;
 
-import org.example.euclidiandist.ClosestPair;
-import org.example.euclidiandist.model.Point;
+import org.example.bruteforce.euclidiandist.ClosestPair;
+import org.example.bruteforce.euclidiandist.model.Point;
 
 import java.util.HashSet;
 import java.util.Set;

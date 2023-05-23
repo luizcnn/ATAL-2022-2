@@ -1,7 +1,7 @@
-package org.example.backpack.impl;
+package org.example.backtracking.backpack.impl;
 
-import org.example.backpack.BackPack;
-import org.example.backpack.model.Item;
+import org.example.backtracking.backpack.model.Item;
+import org.example.backtracking.backpack.BackPack;
 
 import java.util.ArrayList;
 import java.util.HashSet;

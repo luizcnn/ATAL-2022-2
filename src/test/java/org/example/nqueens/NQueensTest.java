@@ -1,6 +1,7 @@
 package org.example.nqueens;
 
-import org.example.nqueens.impl.NQueensImpl;
+import org.example.backtracking.nqueens.NQueens;
+import org.example.backtracking.nqueens.impl.NQueensImpl;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
