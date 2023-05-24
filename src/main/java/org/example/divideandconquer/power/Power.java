@@ -1,4 +1,4 @@
-package org.example.divideandconquer;
+package org.example.divideandconquer.power;
 
 public class Power {
 
