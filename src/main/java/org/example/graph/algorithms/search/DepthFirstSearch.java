@@ -1,4 +1,4 @@
-package org.example.graph.algorithms;
+package org.example.graph.algorithms.search;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
